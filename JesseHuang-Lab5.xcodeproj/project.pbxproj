@@ -14,6 +14,28 @@
 		88597D071E79024800E4F756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88597D051E79024800E4F756 /* LaunchScreen.storyboard */; };
 		88597D121E79024800E4F756 /* JesseHuang_Lab5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88597D111E79024800E4F756 /* JesseHuang_Lab5Tests.swift */; };
 		88597D1D1E79024800E4F756 /* JesseHuang_Lab5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88597D1C1E79024800E4F756 /* JesseHuang_Lab5UITests.swift */; };
+		88597D2D1E79034200E4F756 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88597D2A1E79034200E4F756 /* DisplayView.swift */; };
+		88597D2E1E79034200E4F756 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88597D2B1E79034200E4F756 /* Pet.swift */; };
+		88597D2F1E79034200E4F756 /* shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88597D2C1E79034200E4F756 /* shake.swift */; };
+		88597D3A1E79036500E4F756 /* bird@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D301E79036500E4F756 /* bird@2x.png */; };
+		88597D3B1E79036500E4F756 /* bird@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D311E79036500E4F756 /* bird@3x.png */; };
+		88597D3C1E79036500E4F756 /* bunny@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D321E79036500E4F756 /* bunny@2x.png */; };
+		88597D3D1E79036500E4F756 /* bunny@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D331E79036500E4F756 /* bunny@3x.png */; };
+		88597D3E1E79036500E4F756 /* cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D341E79036500E4F756 /* cat@2x.png */; };
+		88597D3F1E79036500E4F756 /* cat@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D351E79036500E4F756 /* cat@3x.png */; };
+		88597D401E79036500E4F756 /* dog@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D361E79036500E4F756 /* dog@2x.png */; };
+		88597D411E79036500E4F756 /* dog@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D371E79036500E4F756 /* dog@3x.png */; };
+		88597D421E79036500E4F756 /* fish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D381E79036500E4F756 /* fish@2x.png */; };
+		88597D431E79036500E4F756 /* fish@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88597D391E79036500E4F756 /* fish@3x.png */; };
+		886632B11E8B767B00065920 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632B01E8B767B00065920 /* AppDelegate.swift */; };
+		886632B31E8B767B00065920 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632B21E8B767B00065920 /* ViewController.swift */; };
+		886632B51E8B767B00065920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886632B41E8B767B00065920 /* Assets.xcassets */; };
+		886632B81E8B767B00065920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886632B61E8B767B00065920 /* Main.storyboard */; };
+		886632C31E8B767C00065920 /* mac_extensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632C21E8B767C00065920 /* mac_extensionTests.swift */; };
+		886632CE1E8B767C00065920 /* mac_extensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632CD1E8B767C00065920 /* mac_extensionUITests.swift */; };
+		886632DA1E8B8CCB00065920 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632D91E8B8CCB00065920 /* Pet.swift */; };
+		886632DF1E8B975200065920 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632DE1E8B975200065920 /* DisplayView.swift */; };
+		886632E71E8BBC6500065920 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886632E61E8BBC6500065920 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +53,33 @@
 			remoteGlobalIDString = 88597CF81E79024800E4F756;
 			remoteInfo = "JesseHuang-Lab5";
 		};
+		886632BF1E8B767C00065920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88597CF11E79024800E4F756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886632AD1E8B767B00065920;
+			remoteInfo = "mac-extension";
+		};
+		886632CA1E8B767C00065920 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88597CF11E79024800E4F756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886632AD1E8B767B00065920;
+			remoteInfo = "mac-extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		886632E21E8BBC6500065920 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		88597CF91E79024800E4F756 /* JesseHuang-Lab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JesseHuang-Lab5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +95,35 @@
 		88597D181E79024800E4F756 /* JesseHuang-Lab5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JesseHuang-Lab5UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88597D1C1E79024800E4F756 /* JesseHuang_Lab5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JesseHuang_Lab5UITests.swift; sourceTree = "<group>"; };
 		88597D1E1E79024800E4F756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88597D2A1E79034200E4F756 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		88597D2B1E79034200E4F756 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		88597D2C1E79034200E4F756 /* shake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shake.swift; sourceTree = "<group>"; };
+		88597D301E79036500E4F756 /* bird@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird@2x.png"; path = "pet_images/bird@2x.png"; sourceTree = "<group>"; };
+		88597D311E79036500E4F756 /* bird@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird@3x.png"; path = "pet_images/bird@3x.png"; sourceTree = "<group>"; };
+		88597D321E79036500E4F756 /* bunny@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bunny@2x.png"; path = "pet_images/bunny@2x.png"; sourceTree = "<group>"; };
+		88597D331E79036500E4F756 /* bunny@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bunny@3x.png"; path = "pet_images/bunny@3x.png"; sourceTree = "<group>"; };
+		88597D341E79036500E4F756 /* cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat@2x.png"; path = "pet_images/cat@2x.png"; sourceTree = "<group>"; };
+		88597D351E79036500E4F756 /* cat@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cat@3x.png"; path = "pet_images/cat@3x.png"; sourceTree = "<group>"; };
+		88597D361E79036500E4F756 /* dog@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dog@2x.png"; path = "pet_images/dog@2x.png"; sourceTree = "<group>"; };
+		88597D371E79036500E4F756 /* dog@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dog@3x.png"; path = "pet_images/dog@3x.png"; sourceTree = "<group>"; };
+		88597D381E79036500E4F756 /* fish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fish@2x.png"; path = "pet_images/fish@2x.png"; sourceTree = "<group>"; };
+		88597D391E79036500E4F756 /* fish@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fish@3x.png"; path = "pet_images/fish@3x.png"; sourceTree = "<group>"; };
+		886632AE1E8B767B00065920 /* mac-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886632B01E8B767B00065920 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		886632B21E8B767B00065920 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		886632B41E8B767B00065920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		886632B71E8B767B00065920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		886632B91E8B767B00065920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886632BE1E8B767B00065920 /* mac-extensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-extensionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886632C21E8B767C00065920 /* mac_extensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_extensionTests.swift; sourceTree = "<group>"; };
+		886632C41E8B767C00065920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886632C91E8B767C00065920 /* mac-extensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-extensionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886632CD1E8B767C00065920 /* mac_extensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mac_extensionUITests.swift; sourceTree = "<group>"; };
+		886632CF1E8B767C00065920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886632D91E8B8CCB00065920 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		886632DE1E8B975200065920 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		886632E41E8BBC6500065920 /* PetApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PetApp; sourceTree = BUILT_PRODUCTS_DIR; };
+		886632E61E8BBC6500065920 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +148,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		886632AB1E8B767B00065920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632BB1E8B767B00065920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632C61E8B767C00065920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632E11E8BBC6500065920 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +185,10 @@
 				88597CFB1E79024800E4F756 /* JesseHuang-Lab5 */,
 				88597D101E79024800E4F756 /* JesseHuang-Lab5Tests */,
 				88597D1B1E79024800E4F756 /* JesseHuang-Lab5UITests */,
+				886632AF1E8B767B00065920 /* mac-extension */,
+				886632C11E8B767C00065920 /* mac-extensionTests */,
+				886632CC1E8B767C00065920 /* mac-extensionUITests */,
+				886632E51E8BBC6500065920 /* PetApp */,
 				88597CFA1E79024800E4F756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +199,10 @@
 				88597CF91E79024800E4F756 /* JesseHuang-Lab5.app */,
 				88597D0D1E79024800E4F756 /* JesseHuang-Lab5Tests.xctest */,
 				88597D181E79024800E4F756 /* JesseHuang-Lab5UITests.xctest */,
+				886632AE1E8B767B00065920 /* mac-extension.app */,
+				886632BE1E8B767B00065920 /* mac-extensionTests.xctest */,
+				886632C91E8B767C00065920 /* mac-extensionUITests.xctest */,
+				886632E41E8BBC6500065920 /* PetApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +210,19 @@
 		88597CFB1E79024800E4F756 /* JesseHuang-Lab5 */ = {
 			isa = PBXGroup;
 			children = (
+				88597D301E79036500E4F756 /* bird@2x.png */,
+				88597D311E79036500E4F756 /* bird@3x.png */,
+				88597D321E79036500E4F756 /* bunny@2x.png */,
+				88597D331E79036500E4F756 /* bunny@3x.png */,
+				88597D341E79036500E4F756 /* cat@2x.png */,
+				88597D351E79036500E4F756 /* cat@3x.png */,
+				88597D361E79036500E4F756 /* dog@2x.png */,
+				88597D371E79036500E4F756 /* dog@3x.png */,
+				88597D381E79036500E4F756 /* fish@2x.png */,
+				88597D391E79036500E4F756 /* fish@3x.png */,
+				88597D2A1E79034200E4F756 /* DisplayView.swift */,
+				88597D2B1E79034200E4F756 /* Pet.swift */,
+				88597D2C1E79034200E4F756 /* shake.swift */,
 				88597CFC1E79024800E4F756 /* AppDelegate.swift */,
 				88597CFE1E79024800E4F756 /* ViewController.swift */,
 				88597D001E79024800E4F756 /* Main.storyboard */,
@@ -123,6 +249,46 @@
 				88597D1E1E79024800E4F756 /* Info.plist */,
 			);
 			path = "JesseHuang-Lab5UITests";
+			sourceTree = "<group>";
+		};
+		886632AF1E8B767B00065920 /* mac-extension */ = {
+			isa = PBXGroup;
+			children = (
+				886632B01E8B767B00065920 /* AppDelegate.swift */,
+				886632B21E8B767B00065920 /* ViewController.swift */,
+				886632B41E8B767B00065920 /* Assets.xcassets */,
+				886632B61E8B767B00065920 /* Main.storyboard */,
+				886632B91E8B767B00065920 /* Info.plist */,
+				886632D91E8B8CCB00065920 /* Pet.swift */,
+				886632DE1E8B975200065920 /* DisplayView.swift */,
+			);
+			path = "mac-extension";
+			sourceTree = "<group>";
+		};
+		886632C11E8B767C00065920 /* mac-extensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				886632C21E8B767C00065920 /* mac_extensionTests.swift */,
+				886632C41E8B767C00065920 /* Info.plist */,
+			);
+			path = "mac-extensionTests";
+			sourceTree = "<group>";
+		};
+		886632CC1E8B767C00065920 /* mac-extensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				886632CD1E8B767C00065920 /* mac_extensionUITests.swift */,
+				886632CF1E8B767C00065920 /* Info.plist */,
+			);
+			path = "mac-extensionUITests";
+			sourceTree = "<group>";
+		};
+		886632E51E8BBC6500065920 /* PetApp */ = {
+			isa = PBXGroup;
+			children = (
+				886632E61E8BBC6500065920 /* main.swift */,
+			);
+			path = PetApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +347,76 @@
 			productReference = 88597D181E79024800E4F756 /* JesseHuang-Lab5UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		886632AD1E8B767B00065920 /* mac-extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886632D61E8B767C00065920 /* Build configuration list for PBXNativeTarget "mac-extension" */;
+			buildPhases = (
+				886632AA1E8B767B00065920 /* Sources */,
+				886632AB1E8B767B00065920 /* Frameworks */,
+				886632AC1E8B767B00065920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mac-extension";
+			productName = "mac-extension";
+			productReference = 886632AE1E8B767B00065920 /* mac-extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		886632BD1E8B767B00065920 /* mac-extensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886632D71E8B767C00065920 /* Build configuration list for PBXNativeTarget "mac-extensionTests" */;
+			buildPhases = (
+				886632BA1E8B767B00065920 /* Sources */,
+				886632BB1E8B767B00065920 /* Frameworks */,
+				886632BC1E8B767B00065920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886632C01E8B767C00065920 /* PBXTargetDependency */,
+			);
+			name = "mac-extensionTests";
+			productName = "mac-extensionTests";
+			productReference = 886632BE1E8B767B00065920 /* mac-extensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		886632C81E8B767C00065920 /* mac-extensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886632D81E8B767C00065920 /* Build configuration list for PBXNativeTarget "mac-extensionUITests" */;
+			buildPhases = (
+				886632C51E8B767C00065920 /* Sources */,
+				886632C61E8B767C00065920 /* Frameworks */,
+				886632C71E8B767C00065920 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886632CB1E8B767C00065920 /* PBXTargetDependency */,
+			);
+			name = "mac-extensionUITests";
+			productName = "mac-extensionUITests";
+			productReference = 886632C91E8B767C00065920 /* mac-extensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		886632E31E8BBC6500065920 /* PetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886632E81E8BBC6500065920 /* Build configuration list for PBXNativeTarget "PetApp" */;
+			buildPhases = (
+				886632E01E8BBC6500065920 /* Sources */,
+				886632E11E8BBC6500065920 /* Frameworks */,
+				886632E21E8BBC6500065920 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetApp;
+			productName = PetApp;
+			productReference = 886632E41E8BBC6500065920 /* PetApp */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -205,6 +441,24 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 88597CF81E79024800E4F756;
 					};
+					886632AD1E8B767B00065920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					886632BD1E8B767B00065920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 886632AD1E8B767B00065920;
+					};
+					886632C81E8B767C00065920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 886632AD1E8B767B00065920;
+					};
+					886632E31E8BBC6500065920 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 88597CF41E79024800E4F756 /* Build configuration list for PBXProject "JesseHuang-Lab5" */;
@@ -223,6 +477,10 @@
 				88597CF81E79024800E4F756 /* JesseHuang-Lab5 */,
 				88597D0C1E79024800E4F756 /* JesseHuang-Lab5Tests */,
 				88597D171E79024800E4F756 /* JesseHuang-Lab5UITests */,
+				886632AD1E8B767B00065920 /* mac-extension */,
+				886632BD1E8B767B00065920 /* mac-extensionTests */,
+				886632C81E8B767C00065920 /* mac-extensionUITests */,
+				886632E31E8BBC6500065920 /* PetApp */,
 			);
 		};
 /* End PBXProject section */
@@ -233,8 +491,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				88597D071E79024800E4F756 /* LaunchScreen.storyboard in Resources */,
+				88597D3D1E79036500E4F756 /* bunny@3x.png in Resources */,
+				88597D421E79036500E4F756 /* fish@2x.png in Resources */,
+				88597D3C1E79036500E4F756 /* bunny@2x.png in Resources */,
+				88597D411E79036500E4F756 /* dog@3x.png in Resources */,
+				88597D3A1E79036500E4F756 /* bird@2x.png in Resources */,
+				88597D3F1E79036500E4F756 /* cat@3x.png in Resources */,
+				88597D401E79036500E4F756 /* dog@2x.png in Resources */,
+				88597D431E79036500E4F756 /* fish@3x.png in Resources */,
 				88597D041E79024800E4F756 /* Assets.xcassets in Resources */,
 				88597D021E79024800E4F756 /* Main.storyboard in Resources */,
+				88597D3B1E79036500E4F756 /* bird@3x.png in Resources */,
+				88597D3E1E79036500E4F756 /* cat@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +520,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		886632AC1E8B767B00065920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886632B51E8B767B00065920 /* Assets.xcassets in Resources */,
+				886632B81E8B767B00065920 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632BC1E8B767B00065920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632C71E8B767C00065920 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,6 +550,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88597D2F1E79034200E4F756 /* shake.swift in Sources */,
+				88597D2D1E79034200E4F756 /* DisplayView.swift in Sources */,
+				88597D2E1E79034200E4F756 /* Pet.swift in Sources */,
 				88597CFF1E79024800E4F756 /* ViewController.swift in Sources */,
 				88597CFD1E79024800E4F756 /* AppDelegate.swift in Sources */,
 			);
@@ -280,6 +574,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		886632AA1E8B767B00065920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886632DA1E8B8CCB00065920 /* Pet.swift in Sources */,
+				886632DF1E8B975200065920 /* DisplayView.swift in Sources */,
+				886632B31E8B767B00065920 /* ViewController.swift in Sources */,
+				886632B11E8B767B00065920 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632BA1E8B767B00065920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886632C31E8B767C00065920 /* mac_extensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632C51E8B767C00065920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886632CE1E8B767C00065920 /* mac_extensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886632E01E8BBC6500065920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886632E71E8BBC6500065920 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +621,16 @@
 			isa = PBXTargetDependency;
 			target = 88597CF81E79024800E4F756 /* JesseHuang-Lab5 */;
 			targetProxy = 88597D191E79024800E4F756 /* PBXContainerItemProxy */;
+		};
+		886632C01E8B767C00065920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886632AD1E8B767B00065920 /* mac-extension */;
+			targetProxy = 886632BF1E8B767C00065920 /* PBXContainerItemProxy */;
+		};
+		886632CB1E8B767C00065920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886632AD1E8B767B00065920 /* mac-extension */;
+			targetProxy = 886632CA1E8B767C00065920 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -310,6 +649,14 @@
 				88597D061E79024800E4F756 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		886632B61E8B767B00065920 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886632B71E8B767B00065920 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -486,6 +833,130 @@
 			};
 			name = Release;
 		};
+		886632D01E8B767C00065920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mac-extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "jessehuang.mac-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		886632D11E8B767C00065920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mac-extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "jessehuang.mac-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		886632D21E8B767C00065920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mac-extensionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "jessehuang.mac-extensionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mac-extension.app/Contents/MacOS/mac-extension";
+			};
+			name = Debug;
+		};
+		886632D31E8B767C00065920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mac-extensionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "jessehuang.mac-extensionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mac-extension.app/Contents/MacOS/mac-extension";
+			};
+			name = Release;
+		};
+		886632D41E8B767C00065920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mac-extensionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "jessehuang.mac-extensionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mac-extension";
+			};
+			name = Debug;
+		};
+		886632D51E8B767C00065920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "mac-extensionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "jessehuang.mac-extensionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "mac-extension";
+			};
+			name = Release;
+		};
+		886632E91E8BBC6500065920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		886632EA1E8BBC6500065920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -505,6 +976,7 @@
 				88597D231E79024800E4F756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88597D241E79024800E4F756 /* Build configuration list for PBXNativeTarget "JesseHuang-Lab5Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,12 +985,46 @@
 				88597D261E79024800E4F756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88597D271E79024800E4F756 /* Build configuration list for PBXNativeTarget "JesseHuang-Lab5UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				88597D281E79024800E4F756 /* Debug */,
 				88597D291E79024800E4F756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886632D61E8B767C00065920 /* Build configuration list for PBXNativeTarget "mac-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886632D01E8B767C00065920 /* Debug */,
+				886632D11E8B767C00065920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		886632D71E8B767C00065920 /* Build configuration list for PBXNativeTarget "mac-extensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886632D21E8B767C00065920 /* Debug */,
+				886632D31E8B767C00065920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		886632D81E8B767C00065920 /* Build configuration list for PBXNativeTarget "mac-extensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886632D41E8B767C00065920 /* Debug */,
+				886632D51E8B767C00065920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		886632E81E8BBC6500065920 /* Build configuration list for PBXNativeTarget "PetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886632E91E8BBC6500065920 /* Debug */,
+				886632EA1E8BBC6500065920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

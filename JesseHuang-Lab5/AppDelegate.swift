@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  JesseHuang-Lab5
+//  JesseHuang-Lab2
 //
-//  Created by Jesse Huang on 3/15/17.
+//  Created by Jesse Huang on 2/4/17.
 //  Copyright © 2017 Jesse Huang. All rights reserved.
 //
 
